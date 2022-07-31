@@ -323,9 +323,9 @@ class OnlineExamination{
     }
     public static void main(String args[]){
         Scanner input=new Scanner(System.in);
-        System.out.println("-------WELCOME TO ONLINE EXAMINATION-------");
-        System.out.println("Please Register first to write the exam...");
-        System.out.println("1.Register(New Users should Register First)\n2.Exit");
+        System.out.println("****WELCOME TO ONLINE EXAMINATION****");
+        System.out.println("Register to start the test");
+        System.out.println("1.Register(New Users)\n2.Exit");
         System.out.print("Your choice:");
         int choice;
         choice=input.nextInt();
@@ -354,16 +354,16 @@ class OnlineExamination{
                                          break;
                                 case 4 : exam.View_Marks();
                                          break;
-                                case 5 : System.out.println("\nLogged out Successfully..."); 
+                                case 5 : System.out.println("\nSuccesfully logged out"); 
                                          System.exit(0);
                                          break;
-                                default: System.out.println("Invalid option!...Enter Valid option...");
+                                default: System.out.println("Invalid option!");
                             }
                         }
                     }
                 }
                 else{
-                    System.out.println("\nThank you...Visit Again...:)"); 
+                    System.out.println("\nThank you...:)"); 
                     System.exit(0);
                 }
             }
